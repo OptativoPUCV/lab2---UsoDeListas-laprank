@@ -64,7 +64,12 @@ int sumaLista(List *L) {
    int *elem;
    for (int i = 0; i < get_size(L); i++){
      elem = (int*)next(L);
-     suma = suma + (*elem);
+     if(elem != NULL){
+       suma += *elem;
+     }
+     else{
+       exit(EXIT_FAILURE);
+     }
    }
    return suma;
 }
