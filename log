@@ -65,3 +65,8 @@ Thu 21 Mar 2024 10:16:12 PM UTC:
  tests:  1|0
    [info] Lista inicial: [8 7 14 12 4 18 1 18 19 11 1 6 9 14 12 18 6 9 17 4 8 16 13 11 1 10 16 18 14 8 15 2 7 9 14 11 ]
 dcfe505
+Thu 21 Mar 2024 10:16:52 PM UTC: 
+ exercises.c | 3 ---
+ 1 file changed, 3 deletions(-)
+ tests:  0|0
+8dfb737

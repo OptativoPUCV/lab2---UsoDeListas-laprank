@@ -67,9 +67,6 @@ int sumaLista(List *L) {
      if(elem != NULL){
        suma += *elem;
      }
-     else{
-       exit(EXIT_FAILURE);
-     }
    }
    return suma;
 }
