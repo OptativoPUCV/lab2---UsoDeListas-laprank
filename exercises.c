@@ -61,10 +61,10 @@ retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
    int suma = 0;
-   int *elemento;
+   int *elem;
    for (int i = 0; i < get_size(L); i++){
-     elemento = (int*)next(L);
-     suma += *elemento;
+     elem = (int*)next(L);
+     suma += (*elem);
    }
    return suma;
 }
