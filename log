@@ -148,3 +148,17 @@ Sat 23 Mar 2024 07:14:13 PM UTC:
  tests:  4|1
 total_score: 50/70
 22850e3
+Sat 23 Mar 2024 07:19:21 PM UTC: 
+ exercises.c | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:135:46: error: expected ‘)’ before ‘{’ token
+  135 |     if ((apertura == '(' && cadena[i] != ')') {
+      |        ~                                     ^~
+      |                                              )
+exercises.c:138:3: error: expected expression before ‘}’ token
+  138 |   }
+      |   ^
+Compilation failed
+7c1b510
