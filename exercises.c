@@ -132,7 +132,7 @@ int parentesisBalanceados(char *cadena) {
       }
     }
     char apertura = *(char*)pop(pila);
-    if ((apertura == '(' && cadena[i] != ')') {
+    if (apertura == '(' && cadena[i] != ')') {
       return 0;
         }
   }
